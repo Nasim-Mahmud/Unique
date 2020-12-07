@@ -4,530 +4,73 @@
 }
 
 body{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 }
 
 a, a:hover{
 	text-decoration: none;
 }
-/*Lucid home css start*/
+
 .header-section{
 	width: 100%;
-	background: url(../images/Home.png) center top no-repeat;
-	background-size: cover;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover; 
 }
+
 .header-section .main-menu{
 	width: 100%;
 }
 .header-section .main-menu .bg-light{
 	background: transparent !important;
 }
-.header-section .main-menu {
-
+.header-section .main-menu .navbar-brand img{
+	max-width: 115px;
 }
-.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
-	color: #fff;
-	background: url(../images/mh.png) center bottom no-repeat;
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+	background: url(../images/line.png) center bottom no-repeat;
+	background-size: contain;
 }
-.header-section .main-menu .navbar-light .navbar-nav .nav-link {
-	color: #fff;
-	font-size: 14px;
-	font-weight: 600;
-	margin: 0px 0px 0px 10px;
-}
-.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus{
-	color: #fff;
-	background: url(../images/mh.png) center bottom no-repeat;
-}
-.header-section .banner-section{
-	width: 100%;
-	padding: 100px 0px;
-}
-.header-section .banner-section h5{
-	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 600;
-	color: #008ed6;
-	line-height: 28px;
-	letter-spacing: 3px;
-	margin-bottom: 20px;
-}
-.header-section .banner-section h1{
-	text-transform: uppercase;
-	font-size: 42px;
-	font-weight: 600;
-	color: #fff;
-	line-height: 45px;
-	margin-bottom: 20px;
-}
-.header-section .banner-section p{
-	font-size: 16px;
-	color: #999999;
-	line-height: 28px;
-	margin-bottom: 20px;
-}
-
-.header-section .banner-section .inner-btn{
-	width: 100%;
-	margin-top: 60px;
-}
-.header-section .banner-section .inner-btn .btn-primary{
-	padding: 10px 15px;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 600;
-	color: #fff;
-	background: #008ed6;
-	margin-right: 20px;
-	border: 1px solid #008ed6;
-	transition: 1s;
-}
-.header-section .banner-section .inner-btn .btn-primary:hover, .header-section .banner-section .inner-btn .btn-primary:focus{
-	color: #008ed6;
-	background: transparent;
-	border: 1px solid #008ed6;
-}
-.header-section .banner-section .inner-btn .btn-light{
-	padding: 10px 15px;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 600;
-	color: #fff;
-	background: transparent;
-	border: 1px solid #fff;
-	transition: 1s;
-}
-.header-section .banner-section .inner-btn .btn-light:hover, .header-section .banner-section .inner-btn .btn-light:focus{
-	color: #fff;
-	background: #008ed6;
-	border: 1px solid #008ed6;
-}
-
-
-/*Global css for all sections title design*/
-.title h5{
-	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 700;
-	color: #008ed6;
-	line-height: 28px;
-	letter-spacing: 1px;
-}
-.title h1{
-	/*/text-transform: uppercase;*/
-	font-size: 42px;
-	font-weight: 600;
+.main-menu .navbar-light .navbar-nav .nav-link {
 	color: #000;
-	line-height: 45px;
-	margin-bottom: 20px;
-}
-
-/*Feature section starts*/
-
-.feature{
-	width: 100%;
-	padding: 80px 0px;
-}
-
-.feature .inner-feature{
-	width: 100%;
-	padding: 20px 20px 0px;
-	text-align: center;
-}
-.icon-box{
-	width: 100%;
-	padding: 20px 0px;
-}
-.icon-box .fa{
-	width: 70px;
-	height: 70px;
-	line-height: 70px;
-	text-align: center;
-	border: 2px solid #eee;
-	border-radius: 50%;
-	/*margin: 0px auto;*/
-	color: #008ed6;
-	font-size: 28px;
-}
-.inner-feature h4{
-	font-size: 22px;
-	font-weight: 600;
-	line-height: 30px;
-	color: #000;
-}
-.inner-feature p{
-	font-size: 14px;
-	color: #999999;
-	line-height: 24px;
-}
-
-.about-long{
-	width: 100%;
-	padding: 80px 0px;
-	border-top: 2px solid #eee;
-}
-.about-long .title{
-
-	margin: 40px 0px 25px;
-}
-
-.about-long .content{
-	font-size: 14px;
-	color: #999999;
-	line-height: 24px;
-}
-.about-long .list-para{
-	font-size: 14px;
-	color: #000;
-	line-height: 30px;
-	font-weight: 600;
-
-}
-.about-long .list-para img{
-	margin-right: 5px;
-}
-
-/*About sort starts*/
-.about-short{
-	width: 100%;
-	padding: 80px 0px;
-	background: #f2f2f2;
-}
-
-.about-short .content{
-	font-size: 14px;
-	color: #999999;
-	line-height: 24px;
-}
-
-.about-short .title{
-
-	margin: 100px 0px 0px;
-}
-/*About sort ends*/
-
-/*Testimonial starts*/
-.testimonial{
-	width: 100%;
-	padding: 80px 0px;
-	background: url("../images/banner.png") center top no-repeat;
-	background-size: cover; 
-}
-
-.testimonial .title{
-	text-align: center;
-	padding-bottom: 60px;
-}
-
-.testimonial .title h1{
-	color: #fff;
-}
-
-.testimonial .owl-carousel .item h4 {
-	font-size: 22px;
-	font-weight: 400;
-	color: #fff;
-	font-style: italic;
-	line-height: 32px;
-}
-.testimonial .owl-carousel .media {
-	margin-top: 40px;
-}
-
-.testimonial .owl-carousel .media img{
-	width: 65px;
-	height: 65px;
-	border-radius: 100%;
-}
-.testimonial .owl-carousel .media-body{
-
-}
-.testimonial .owl-carousel .media-body h6 {
-	margin: 12px 0px 0px !important;
 	font-size: 15px;
-	font-weight: 400;
-	color: #fff;
+	font-weight: 700;
+	margin: 0px 15px;
 }
-.testimonial .owl-carousel .media-body p{
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url(../images/line.png) center bottom no-repeat;
+}
+.main-menu .navbar-light .btn-link{
+	color: #000;
 	font-size: 15px;
-	font-weight: 600;
-	color: #fff;
-	text-transform: uppercase;
-}
-
-.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
-	margin-top: 80px;
-	color: #eee;
-}
-.testimonial .owl-theme .owl-dots .owl-dot.active span{
-	background: #fff;
-}
-/*Testimonial ends*/
-
-/*EyeCatcher starts*/
-.eye{
-	width: 100%;
-	padding: 60px 0px;
-	background: #15141a;
-}
-.eye h2{
-	font-size: 32px;
-	font-weight: 600;
-	color: #fff;
-	margin: 0px;
-}
-.eye h2 span{
-	font-weight: 200;
-}
-.eye .inner-btn{
-	width: 100%;
-	text-align: right;
-}
-.eye .inner-btn .btn-primary{
-	padding: 10px 15px;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 600;
-	color: #fff;
-	background: #008ed6;
-	margin-left: 20px;
-	border: 1px solid #008ed6;
-	transition: 1s;
-}
-.eye .inner-btn .btn-primary:hover, .eye .inner-btn .btn-primary:focus{
-	color: #008ed6;
-	background: transparent;
-	border: 1px solid #008ed6;
-}
-.eye .inner-btn .btn-light{
-	padding: 10px 15px;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 600;
-	color: #fff;
-	background: transparent;
-	border: 1px solid #fff;
-	transition: 1s;
-}
-.eye .inner-btn .btn-light:hover, .eye .inner-btn .btn-light:focus{
-	color: #fff;
-	background: #008ed6;
-	border: 1px solid #008ed6;
-}
-/*EyeCatcher ends*/
-
-/*Pricing section starts*/
-.price-section{
-	width: 100%;
-	padding: 80px 0px;
-}
-
-.price-section .title{
-	text-align: center;
-	padding-bottom: 40px;
-}
-
-.price-section .card {
-	text-align: center;
-}
-.price-section .card .card-header {
-	background: transparent;
-	font-size: 24px;
 	font-weight: 700;
-	text-transform: uppercase;
-	padding: 20px 0px;
+	margin: 0px 15px;
 	transition: 1s;
 }
-.price-section .card .card-body {
-	padding: 0px;
+.main-menu .navbar-light .btn-link:hover{
+	color: #511de5;
+	text-decoration: none;
 }
-.price-section .card .card-body .price-inner {
-	width: 100%;
-	padding: 40px 0px;
-	border-bottom: 1px solid #eee;
-	transition: 1s;
-}
-.price-section .card .card-body .price-inner sup {
-	font-weight: 400;
-	top: -20px;
-	font-size: 20px;
-}
-.price-section .card .card-body .price-inner h2 {
-	margin: 0px;
-	font-size: 45px;
+.main-menu .navbar-light .btn-info {
+	padding: 6px 40px;
+	font-size: 14px;
+	color: #fff;
+	text-transform: capitalize;
 	font-weight: 600;
-}
-.price-section .card .card-body .price-inner p{
-	font-size: 14px;
-	font-weight: 400;
-	color: #999999;
-	line-height: 24px;
-	margin: -10px 0px 0px;
-}
-.price-section .card .card-body .price-text{
-	width: 100%;
-	padding: 30px 28px;
-}
-.price-section .card .card-body .price-text p {
-	font-size: 16px;
-	color: #999999;
-	line-height: 24px;
-	font-weight: 500;
-	margin: 0px;
-}
-.price-section .card .card-body .price-text p a{
-	color: #008ed6;
-	font-weight: 700;
-}
-.price-section .card .card-body .btn-primary {
-	margin-bottom: 30px;
-	padding: 10px 15px;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	color: #008ed6;
-	background: #fff;
-	border: 1px solid #eee;
+	background: linear-gradient(45deg, #511de5, #0a8ffc);
+	border: 0px;
+	border-radius: 25px;
 	transition: 1s;
 }
-.price-section .card:hover .card-body .btn-primary, .price-section .card .card-body .btn-primary:focus{
-	color: #fff;
-	background: #008ed6;
-	border: 1px solid #008ed6;
-}
-.price-section .card:hover .card-header{
-	color: #008ed6;
-}
-.price-section .card:hover .card-body .price-inner{
-	color: #fff;
-	background: #008ed6;
-}
-/*Pricing section ends*/
-
-/*Contact Us section starts*/
-
-.contactUs{
-	width: 100%;
-	padding: 80px 0px 0px;
-	background: #ededed;
-}
-.contactUs .title{
-	text-align: center;
-	padding-bottom: 40px;
-}
-.contactUs .info-box{
-	width: 100%;
-	text-align: center;
-	padding-bottom: 60px;
-}
-.contactUs .info-box .fa{
-	font-size: 30px;
-	color: #008ed6;
-	margin-bottom: 20px;
-}
-.contactUs .info-box p{
-	font-size: 16px;
-	color: #999999;
-	line-height: 24px;
-	font-weight: 500;
-	margin: 0px;
-}
-
-.main-form{
-	width: 100%;
-	padding: 60px 60px 30px;
-	background: #15141a;
-	margin-bottom: -90px
-}
-.main-form .form-control{
-	background: transparent;
-	border: 1px solid #444348
-	color: #444348;
-	font-size: 14px;
-	font-weight: 400;
-	padding: 12px;
-	height: auto;
-}
-.main-form .btn-primary {
-	margin-top: 10px;
-	padding: 10px 15px;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+.main-menu .navbar-light .btn-info:hover, .main-menu .navbar-light .btn-info:focus{
 	font-weight: 600;
-	color: #fff;
-	background: #008ed6;
-	border: 1px solid #008ed6;
-	transition: 1s;
+	border: #000;
+	background: linear-gradient(45deg, #0a8ffc, #511de5);
 }
-.main-form .btn-primary:hover, .main-form .btn-primary:focus{
-	color: #008ed6;
-	background: transparent;
-	border: 1px solid #008ed6;
-}
-/*Contact Us section ends*/
-
-/*map starts*/
-.map{
-	width: 100%;
-}
-/*map ends*/
-
-/*Footer section starts*/
-
-.footer-section{
-	width: 100%;
-	padding: 30px 0px;
-	background: #15141a;
-}
-.footer-section .social-icons{
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-}
-.footer-section .social-icons ul{
-
-}
-.footer-section .social-icons li{
-	list-style: none;
-	display: inline-block;
-	padding: 0px 10px;
-}
-.footer-section .social-icons li a{
-	font-size: 20px;
-	color: #444348;
-	margin: 0px 8px 10px;
-	transition: 1s;
-}
-.footer-section .social-icons li a:hover{
-	color: #008ed6;
-}
-.footer-section .social-icons .fa{
-	font-size: 16px;
-	padding: 15px 0px;
-}
-.footer-section .social-icons p{
-	text-align: center;
-	font-size: 18px;
-	color: #444348;
-	line-height: 24px;
-	font-weight: 500;
-}
-/*Footer section ends*/
