@@ -74,3 +74,24 @@ a, a:hover{
 	border: #000;
 	background: linear-gradient(45deg, #0a8ffc, #511de5);
 }
+
+.header-section .banner{
+	width: 100%;
+	margin: 120px 0px;
+}
+.inner-banner{
+	width: 100%;
+	text-align: right;
+}
+.inner-banner h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #000;
+}
+.inner-banner h1 span{
+	
+}
+.inner-banner .btn-primary{
+
+}
