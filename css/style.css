@@ -84,13 +84,13 @@ a, a:hover{
 	text-align: right;
 }
 .inner-banner h1 {
-    font-size: 52px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 55px;
+    line-height: 45px;
     color: #000;
 }
 .inner-banner h1 span{
-	
+	color: #511de5;
 }
 .inner-banner .btn-primary{
 
