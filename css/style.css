@@ -151,7 +151,6 @@ a, a:hover{
 	background-size: cover;
 	padding: 80px;
 	box-shadow: 1px 2px 10px #ccc;
-	max-width: ;
 }
 .features .inner-feature h2 {
 	font-size: 36px;
@@ -190,4 +189,71 @@ a, a:hover{
     font-weight: 700;
     font-size: 16px;
 }
+
+.client-img {
+    width: 100%;
+    padding: 60px 40px 0px;
+}
 /*Inner features ends here*/
+
+/*Quote section starts*/
+
+.into-quote{
+	width: 100%;
+	padding: 115px 0px;
+	background: url("../images/bg2.png") center top no-repeat;
+	background-size: cover;
+}
+.into-quote .quote-inner {
+    width: 100%;
+    background: url(../images/quote.png) center top no-repeat;
+    background-size: cover;
+    padding: 112px 30px;
+    margin: 70px 0px;
+}
+
+.into-quote .quote-inner .testimonial {
+    width: 80%;
+    padding: 20px;
+    margin: 0px auto;
+}
+.into-quote .quote-inner .testimonial p {
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 10px 20px 20px;
+}
+.into-quote .quote-inner .testimonial h5{
+	font-size: 16px;
+    color: #fff;
+    margin: 10px 0px 0px 20px;
+}
+
+.inner-content{
+	width: 100%;
+	padding: 165px 0px;
+}
+.inner-content h2{
+	font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #000;
+}
+.inner-content .btn-primary{
+	padding: 10px 40px;
+	letter-spacing: 3px;
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 400;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	margin-top: 20px;
+	transition: 1s;
+}
+.inner-content .btn-primary:hover, .inner-banner .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #000;
+	color: #511de5;
+}
+/*Quote section ends*/
