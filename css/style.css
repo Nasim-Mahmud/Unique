@@ -113,3 +113,20 @@ a, a:hover{
 .inner-banner .btn-primary .fa{
 	margin-left: 10px;
 }
+
+/*Highlight section code started*/
+.highlight{
+	width: 100%;
+	padding: 30px 0px;
+	background: url("../images/h.png") center top no-repeat;
+	background-size: cover;
+}
+.inner-img{
+	position: relative;
+	width: 100%;
+}
+.inner-img img {
+	position: absolute;
+	top: -115px;
+	left: 0px;
+}

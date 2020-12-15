@@ -5,6 +5,27 @@
 
   @media (min-width: 320px) and (max-width: 480px) {
     /*******************************/
+    .main-menu .navbar-light .navbar-nav .active>.nav-link {
+      color: #511de5;
+      background: url(../images/line.png) left bottom no-repeat;
+      background-size: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link {
+      color: #000;
+      font-size: 15px;
+      font-weight: 700;
+      margin: 0px 10px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover{
+      color: #511de5;
+      background: url(../images/line.png) left bottom no-repeat;
+    }
+    .main-menu .navbar-light .btn-link {
+      margin: 0px 4px;
+      display: block;
+      text-align: left;
+      padding: 0px 6px;
+    }
     .banner {
       padding: 20px 0px;
     }
