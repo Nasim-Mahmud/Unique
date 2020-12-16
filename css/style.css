@@ -528,11 +528,15 @@ a, a:hover{
 	font-size: 16px;
 	font-weight: 700;
 	color: #fff;
+	transition: 1s;
+}
+.faq .op li a:hover, .faq .op li a:focus{
+	color: #000;
 }
 .faq .op li a span{
 	padding: 0px 15px;
 }
-.faq .copyright{
+.faq .copyright h6{
 	padding: 100px 0px 0px;
     margin: 0px;
     text-align: right;
