@@ -329,6 +329,9 @@ a, a:hover{
 	border-right: 2px solid #eee;
 	padding-bottom: 40px;
 }
+.designF .bottom img {
+	mix-blend-mode: darken;
+}
 .designF .top h1{
 	font-size: 36px;
 	font-weight: 900;
@@ -362,11 +365,179 @@ a, a:hover{
 	padding: 80px 0px;
 	border-top: 2px solid #eee;
 }
-.iquote .head-section h1{
+.iquote .head-section{
 	width: 100%;
+	padding: 0px 0px 40px;
+}
+.iquote .head-section h1 {
 	font-size: 50px;
 	font-weight: 900;
 	text-align: center;
+	color: #000;
+	padding-bottom: 40px;
 }
-
+.iquote .client-box {
+	width: 100%;
+	padding: 40px 10px 0px;
+	text-align: center;
+	background: url(../images/f1.png) center top no-repeat;
+	background-size: cover;
+	border: 1px solid #f2f2f2;
+	opacity: .5;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	-moz-transition:1s;
+}
+.iquote .client-box:hover{
+	opacity: 1;
+	box-shadow: 5px 10px 10px #eee;
+}
+.iquote .client-box:hover .client-head h5{
+	background: -webkit-linear-gradient(0deg, #511de5, #098ffc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.iquote .client-box .client-head {
+	width: 100%;
+	padding: 60px 0px;
+	border-bottom: 1px solid #777;
+}
+.iquote .client-box .client-head h5 {
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0px 10px;
+	color: #777;
+	line-height: 26px;
+}
+.iquote .client-info{
+	width: 100%;
+	padding: 40px 0px;
+}
+.iquote .client-info img{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 20px;
+}
+.iquote .client-info h6{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #777;
+	line-height: 26px;
+	margin-bottom: 0px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	-moz-transition:1s;
+}
+.iquote .client-box:hover .client-info h6{
+	color: #000;
+}
+.iquote .client-info p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #777;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	-moz-transition:1s;
+}
+.iquote .client-box:hover .client-info p{
+	color: #666;
+}
 /*Inspirational quotes section starts*/
+
+/*Footer section starts*/
+
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/fbg.png") center top no-repeat;
+	background-size: cover;
+}
+.footer .faq{
+	width: 100%;
+}
+.inner-faq{
+	width: 100%;
+	background: #fff;
+	padding: 80px;
+	box-shadow: 1px 4px 5px #ccc;
+}
+.inner-faq .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+.inner-faq .title h2{
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 60px;
+	text-transform: capitalize;
+	color: #000;
+	margin-bottom: 40px;
+
+}
+.inner-faq .card {
+	background-color: #fff;
+	background-clip: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid #eee !important;
+	border: none;
+	border-radius: .25rem;
+}
+.inner-faq .card .card-header {
+	padding: .75rem 1.25rem .75rem 0rem;
+	margin-bottom: 0;
+	background-color: transparent;
+	border: none;	
+}
+.inner-faq .card .card-body {
+	padding: .25rem 1.25rem 1.25rem 0rem;
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+}
+.inner-faq .card .card-header .btn{
+	padding: .375rem 0rem;
+}
+.inner-faq .card .card-header .btn-link {
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+}
+.inner-faq .card .card-header .btn-link:hover, .inner-faq .card .card-header .btn-link:focus{
+	color: #0000ff;
+}
+.inner-faq .card .card-header .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+.faq .op {
+    padding: 100px 0px 0px;
+    margin: 0px;
+}
+.faq .op li{
+	list-style: none;
+	display: inline-block;
+}
+.faq .op li a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.faq .op li a span{
+	padding: 0px 15px;
+}
+.faq .copyright{
+	padding: 100px 0px 0px;
+    margin: 0px;
+    text-align: right;
+    font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+/*Footer section ends*/
