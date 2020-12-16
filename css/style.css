@@ -533,8 +533,8 @@ a, a:hover{
 .faq .op li a:hover, .faq .op li a:focus{
 	color: #000;
 }
-.faq .op li a span{
-	padding: 0px 15px;
+.faq .op li a span {
+    padding: 0px 0px 0px 15px;
 }
 .faq .copyright h6{
 	padding: 100px 0px 0px;
