@@ -257,3 +257,58 @@ a, a:hover{
 	color: #511de5;
 }
 /*Quote section ends*/
+
+/*Efficiency section starts*/
+
+.efficiency{
+	width: 100%;
+	padding: 80px 0px;
+}
+.efficiency .left-efs{
+	width: 100%;
+	padding: 80px 0px;
+}
+.efficiency .left-ef h1{
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 40px;
+	margin-bottom: 25px;
+	color: #000;
+}
+.efficiency .left-ef p{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 35px;
+}
+.efficiency .left-ef .track{
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 15px;
+}
+.efficiency .left-ef .data {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+.efficiency .left-ef .track img, .efficiency .left-ef .data img{
+	margin-right: 20px;
+}
+
+.efficiency .left-ef .btn-primary {
+	padding: 6px 40px;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #fff;
+	background: linear-gradient(45deg, #511de5, #0a8ffc);
+	border-radius: 25px;
+	transition: 1s;
+}
+.efficiency .left-ef .btn-primary:hover, .efficiency .left-eff .btn-primary:focus{
+	font-weight: 400;
+	background: linear-gradient(45deg, #0a8ffc, #511de5);
+}
+/*Efficiency section ends*/
