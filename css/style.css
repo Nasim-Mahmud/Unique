@@ -186,13 +186,13 @@ a, a:hover{
 	-webkit-text-fill-color: transparent;
 }
 .features .inner-feature .big-text .pi {
-    font-weight: 700;
-    font-size: 16px;
+	font-weight: 700;
+	font-size: 16px;
 }
 
 .client-img {
-    width: 100%;
-    padding: 60px 40px 0px;
+	width: 100%;
+	padding: 60px 40px 0px;
 }
 /*Inner features ends here*/
 
@@ -205,27 +205,27 @@ a, a:hover{
 	background-size: cover;
 }
 .into-quote .quote-inner {
-    width: 100%;
-    background: url(../images/quote.png) center top no-repeat;
-    background-size: cover;
-    padding: 112px 30px;
-    margin: 70px 0px;
+	width: 100%;
+	background: url(../images/quote.png) center top no-repeat;
+	background-size: cover;
+	padding: 112px 30px;
+	margin: 70px 0px;
 }
 
 .into-quote .quote-inner .testimonial {
-    width: 80%;
-    padding: 20px;
-    margin: 0px auto;
+	width: 80%;
+	padding: 20px;
+	margin: 0px auto;
 }
 .into-quote .quote-inner .testimonial p {
-    font-size: 14px;
-    color: #fff;
-    margin: 20px 10px 20px 20px;
+	font-size: 14px;
+	color: #fff;
+	margin: 20px 10px 20px 20px;
 }
 .into-quote .quote-inner .testimonial h5{
 	font-size: 16px;
-    color: #fff;
-    margin: 10px 0px 0px 20px;
+	color: #fff;
+	margin: 10px 0px 0px 20px;
 }
 
 .inner-content{
@@ -234,9 +234,9 @@ a, a:hover{
 }
 .inner-content h2{
 	font-size: 36px;
-    font-weight: 900;
-    line-height: 40px;
-    color: #000;
+	font-weight: 900;
+	line-height: 40px;
+	color: #000;
 }
 .inner-content .btn-primary{
 	padding: 10px 40px;
@@ -262,7 +262,7 @@ a, a:hover{
 
 .efficiency{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 80px 0px 100px;
 }
 .efficiency .left-efs{
 	width: 100%;
@@ -273,10 +273,12 @@ a, a:hover{
 	font-weight: 900;
 	line-height: 40px;
 	margin-bottom: 25px;
+	margin-top: 70px;
 	color: #000;
 }
 .efficiency .left-ef p{
 	font-size: 14px;
+	font-weight: 600;
 	color: #000;
 	margin-bottom: 35px;
 }
@@ -287,10 +289,10 @@ a, a:hover{
 	margin-bottom: 15px;
 }
 .efficiency .left-ef .data {
-    font-size: 15px;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 40px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 40px;
 }
 .efficiency .left-ef .track img, .efficiency .left-ef .data img{
 	margin-right: 20px;
@@ -311,4 +313,44 @@ a, a:hover{
 	font-weight: 400;
 	background: linear-gradient(45deg, #0a8ffc, #511de5);
 }
+
+
 /*Efficiency section ends*/
+
+/*Design sections starts*/
+.designF{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 2px solid #eee;
+	text-align: center;
+	background: #fcfcfc;
+}
+.designF .bottom{
+	border-right: 2px solid #eee;
+	padding-bottom: 40px;
+}
+.designF .top h1{
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 40px;
+	margin-bottom: 40px;
+	color: #000;
+}
+.designF .top p{
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 100px;
+}
+.designF .bottom h4, .designF .bottom-last h4 {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 16px 0px;
+	color: #000;
+}
+.designF .bottom p, .designF .bottom-last p{
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+}
+/*Design section ends*/
